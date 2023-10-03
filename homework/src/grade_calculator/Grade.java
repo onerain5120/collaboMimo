@@ -5,7 +5,8 @@ public interface Grade {
 	// 상
 	
 	// 추
-	public abstract void cal(String name, int num, String course, int score);
+	public abstract void calKorean(String name, int num, String course, int score);
+	public abstract void calMath(String name, int num, String course, int score);
 	
 	// 디
 	
